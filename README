@@ -7,9 +7,7 @@ Introduction:
 > Catch Unit Testing - https://github.com/philsquared/Catch
 Both of these projects are header only implementations, so they were included directly into my project.
 
-> This application uses a recursive solution for finding intersections involving multiple parent rectangles.
-As a result, for input rectangle sets that have a large number of intersections involving a large number
-parent rectangles, it can be quite resource intensive.
+> This application uses a recursive solution for finding intersections involving multiple parent rectangles. As a result, for input rectangle sets that have a large number of intersections involving a large number parent rectangles, it can be quite resource intensive.
 
 Building:
 > The IntersectionApplication can be built using the buildIntersectionProject script (contains 1 simple command)
