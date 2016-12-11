@@ -1,0 +1,27 @@
+Intersection Application
+    > Feargus O'Gorman
+
+Introduction:
+    > All code in this application is my own, except for two external, open source projects which I utilised:
+        > JSON for Modern C++ - https://github.com/nlohmann/json
+        > Catch Unit Testing - https://github.com/philsquared/Catch
+      Both of these projects are header only implementations, so they were included directly into my project.
+
+    > This application uses a recursive solution for finding intersections involving multiple parent rectangles.
+      As a result, for input rectangle sets that have a large number of intersections involving a large number
+      parent rectangles, it can be quite resource intensive.
+
+Building:
+    > The IntersectionApplication can be built using the buildIntersectionProject script (contains 1 simple command)
+        > It will produce a binary called IntersectionApplication. This binary takes the input json file as its first arg, and optionally an output file as its second arg e.g.:
+            > IntersectionApplication sample.json
+            > IntersectionApplication sample.json output.out
+        If no second arg is supplied, output will be to console.
+
+    > The Unit Tests can be built using the buildIntersectionProject_UnitTest script (again 1 simple command)
+        > It will produce a binary called IntersectionApplication_UnitTest. This binary takes no args and when executed will perform all unit tests for IntersectionApplication.
+
+    > This was written and built on Ubuntu 16.04 LTS using C++11 features and compiled with the following version of gcc: 
+        > gcc (Ubuntu 5.4.0-6ubuntu1~16.04.4) 5.4.0 20160609
+
+    > It is not platform specific, but certain versions of MinGW on Windows will not compile it due to a bug in its implementation of std::to_string: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=52015

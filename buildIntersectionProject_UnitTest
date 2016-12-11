@@ -1,0 +1,1 @@
+g++ Test_Main.cpp Test_IntersectionApplication.cpp Test_Rectangle.cpp Test_JSONParser.cpp Rectangle.cpp IntersectionApplication.cpp JSONParser.cpp -o IntersectionApplication_UnitTest -std=c++11

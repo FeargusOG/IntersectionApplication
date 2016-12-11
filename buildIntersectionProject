@@ -1,0 +1,1 @@
+g++ main.cpp Rectangle.cpp IntersectionApplication.cpp JSONParser.cpp -o IntersectionApplication -std=c++11
